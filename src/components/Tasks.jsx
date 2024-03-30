@@ -3,13 +3,15 @@ import './Tasks.css'
 function Tasks() {
     return (
       <>
-        {/* <ul>
-            <li>Id</li>
-            <li>Task</li>
-            <li>Status</li>
-            <li>Constrains</li>
-        </ul> */}
         <div className="tasks">
+            <div className="new">
+                <div className='inputContainer'>
+                    <input type="text" name="newTask" id="newTaskInput" placeholder='Add new task' />
+                </div>
+                <div>
+                    <button>Add</button>
+                </div>
+            </div>
             <div className="task">
                 <div className="id">235</div>
                 <div className="desc">Task 1 description</div>

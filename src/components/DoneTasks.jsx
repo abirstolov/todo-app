@@ -2,10 +2,6 @@
 function DoneTasks() {
     return (
       <>
-        {/* <ul>
-            <li>Id</li>
-            <li>Task</li>
-        </ul> */}
         <div className="tasks">
             <div className="task">
                 <div className="id">34</div>
