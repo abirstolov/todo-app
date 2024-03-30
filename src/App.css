@@ -5,48 +5,6 @@
   text-align: center;
 }
 
-.task {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  padding: 1em;
-  min-width: 500px;
-}
-
-.task .id {
-  min-width: 3rem;
-}
-
-.task .status {
-  min-width: 5rem;
-  background-color: green;
-}
-
-.task .constrains {
-  font-size: 0.7rem;
-  align-self: center;
-}
-
-.task .menu {
-  align-items: center;
-  justify-content: center;
-  width: 20px;
-}
-.task .desc {
-  text-align: left;
-  margin: 0 auto;
-}
-/*.tasks {
-  display: flex;
-  flex-direction: column;
-}
-*/
-
-/* ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-} */
 h2 {
   margin: 0;
 }
